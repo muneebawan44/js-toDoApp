@@ -51,7 +51,13 @@ function editItem(event) {
     console.log('list',list);
     inputElement.value = event.target.parentNode.childNodes[0].nodeValue
 }
+function clsAll() {
+    var list = document.getElementById('list')
+  list.innerHTML = ''
+  
+ 
 
+}
 function cls() {
     var inputElement = document.getElementById('input')
     inputElement.value = ''
